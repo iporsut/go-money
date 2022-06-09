@@ -3,8 +3,8 @@
 ![alt text](http://i.imgur.com/c3XmCC6.jpg "Money")
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/rhymond/go-money)](https://goreportcard.com/report/github.com/rhymond/go-money)
-[![Coverage Status](https://coveralls.io/repos/github/Rhymond/go-money/badge.svg?branch=master)](https://coveralls.io/github/Rhymond/go-money?branch=master)
-[![GoDoc](https://godoc.org/github.com/Rhymond/go-money?status.svg)](https://godoc.org/github.com/Rhymond/go-money)
+[![Coverage Status](https://coveralls.io/repos/github/iporsut/go-money/badge.svg?branch=master)](https://coveralls.io/github/iporsut/go-money?branch=master)
+[![GoDoc](https://godoc.org/github.com/iporsut/go-money?status.svg)](https://godoc.org/github.com/iporsut/go-money)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **GoMoney** provides ability to work with [monetary value using a currency's smallest unit](https://martinfowler.com/eaaCatalog/money.html).
@@ -13,7 +13,7 @@ This package provides basic and precise Money operations such as rounding, split
 ```go
 package main
 
-import "github.com/Rhymond/go-money"
+import "github.com/iporsut/go-money"
 
 func main() {
     pound := money.New(100, money.GBP)
@@ -40,7 +40,7 @@ Quick start
 Get the package:
 
 ``` bash
-$ go get github.com/Rhymond/go-money
+$ go get github.com/iporsut/go-money
 ```
 
 ## Features
@@ -243,4 +243,4 @@ The MIT License (MIT). Please see License File for more information.
 
 
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Rhymond/go-money)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/iporsut/go-money)
